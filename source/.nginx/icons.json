@@ -54,6 +54,7 @@
     "(.*)\\.h$": "icons/header.png",
     "(.*)\\.go$": "icons/go-lang.png",
     "(.*)\\.(html?)$": "icons/html.png",
+    "(.*)\\.md$": "icons/html.png",
     "(.*)\\.(java|class)$": "icons/java.png",
     "(.*)\\.lua$": "icons/lua.png",
     "(.*)\\.nim$": "icons/nim.png",
