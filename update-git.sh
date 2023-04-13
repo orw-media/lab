@@ -9,6 +9,7 @@ git_repos=(
   "/usr/share/nginx/octopus-report.de/lab"
   "/mnt/git/maintenance"
   "/mnt/git/linktree"
+  "/mnt/git/orw-media"
 )
 
 # Loop through the Git repositories and update them
