@@ -1,0 +1,20 @@
+name: apply-nginx-config
+on:
+  push:
+    paths:
+      - 'nginx/**'
+  pull_request:
+    paths:
+      - 'nginx/**'
+  workflow_dispatch:
+
+jobs:
+  reload:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v3
+      - name: update the repo
+      - run: ./update-git.sh
+
+      - name: reload nginx-server
+      - run: systemctl reload nginx
