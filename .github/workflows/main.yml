@@ -1,0 +1,15 @@
+name: nginx
+
+on:
+  pull_request:
+    brahch: [ "main" ]
+    paths:
+      - 'nginx/**'
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: update git repo and restart nginx
+        run: /usr/share/nginx/octopus-report.de/lab/update-git.sh && systemctl reload nginx

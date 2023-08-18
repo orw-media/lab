@@ -5,7 +5,8 @@
 
 ## Integration
 * Content on this site is from different sources but mainly from git
-* Content get updated automatically via pipelines, actions, runners and cronjobs
+* Content via cronjobs
+* nginx config gets updated via actions
 
 ## Shout out
 * inspired from [Fancyindex royal theme](https://github.com/leshniak/fancyindex-royal-theme)
