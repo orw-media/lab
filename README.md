@@ -1,6 +1,6 @@
 # The 'LAB'
 
-> [!IMPORTANT]]
+> [!IMPORTANT]
 > This is the documentation and source code of the orw-lab site. The purpose of this site is primary testing and static file hosting
 
 ## Integration
