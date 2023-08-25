@@ -2,7 +2,7 @@ name: nginx
 
 on:
   pull_request:
-    brahch: [ "main" ]
+    branches: [ "main" ]
     paths:
       - 'nginx/**'
   workflow_dispatch:
